@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 21px;
+    background-color: #f5f5f5;
+}
+
+form{
+     
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe6a8;
+    border-radius: 12px;
+    margin-top: 60px;
+    padding: 40px 60px;
+    min-width: 300px;
+
+    
+}
+
+form h1{
+    color: #eb7371;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form .social-media {
+margin-top: -10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+form .social-media p {
+    margin-left:10px;
+    padding: 5px;
+    border: 2px solid #f5f5f5;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    }
+    .choose-email{
+        text-align: center;
+    }
+
+    .inputs{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    form .inputs input[type='email'], input[type='password']{
+        padding: 15px;
+        border:none;
+        border-radius: 5px;
+        background-color:#f2f2f2;
+        outline:none;
+        margin-bottom: 15px;
+      }
+      form p.inscription{
+        text-align: center;
+      }
+      form p.inscription span{
+        color: #eb7371;}
+        form button{
+            padding: 15px 25px;
+            border-radius: 5px;
+            border:none;
+            font-size: 15px;
+            color: #fff;
+            background-color: #eb7371;
+            outline:none;
+            cursor:pointer;
+          }
